@@ -1,0 +1,19 @@
+# Dependencies and generated test output
+node_modules/
+coverage/
+.nyc_output/
+
+# Local secrets and editor/OS files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*~

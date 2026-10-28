@@ -1,0 +1,10 @@
+{
+  "name": "staycam-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Development tooling for the StayCam Check browser extension.",
+  "scripts": {
+    "test": "node tests/classifier.test.js && node tests/cache.test.js && node tests/html-classifier.test.js && node tests/content-lifecycle.test.js && node tests/background.test.js && node tests/popup.test.js",
+    "check": "node --check src/classifier.js && node --check src/background.js && node --check src/content.js && node --check popup/popup.js"
+  }
+}

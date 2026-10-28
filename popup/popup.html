@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StayCam Check</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>StayCam Check</h1>
+    <p id="page-status">Checking the current tab...</p>
+    <div id="counts" class="counts">No scan data yet.</div>
+    <button id="scan" type="button">Scan current results</button>
+    <label><input id="hide-confirmed" type="checkbox"> Hide confirmed-camera listings</label>
+    <label><input id="auto-scan" type="checkbox"> Auto-scan newly loaded results</label>
+    <button id="clear" class="secondary" type="button">Clear local cache</button>
+    <p class="note">Unofficial. Classifies disclosed exterior-camera status only.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
