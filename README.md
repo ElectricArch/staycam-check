@@ -113,7 +113,6 @@ This repository is for **experimental source review and local evaluation**, not 
 - [Privacy and data handling](PRIVACY.md)
 - [Security and responsible reporting](SECURITY.md)
 - [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-- [Store listing draft](STORE_LISTING.md) — future planning only
 
 StayCam Check is independent of Airbnb and is not affiliated with, endorsed by, or sponsored by Airbnb. Technical safeguards do not establish platform authorization, legal compliance, or rights to third-party branding. Those questions require separate owner review.
 
